@@ -12,6 +12,7 @@
 		75C18BA41F75E36D000A3308 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75C18BA21F75E36D000A3308 /* Main.storyboard */; };
 		75C18BA61F75E36D000A3308 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75C18BA51F75E36D000A3308 /* Assets.xcassets */; };
 		75C18BA91F75E36D000A3308 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75C18BA71F75E36D000A3308 /* LaunchScreen.storyboard */; };
+		75C18BB51F760E10000A3308 /* DroppablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C18BB41F760E10000A3308 /* DroppablePin.swift */; };
 		871BD675BDB3A0CDFDF8F839 /* Pods_PixelCity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5410B8A9A6170FB55D2E50C8 /* Pods_PixelCity.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		75C18BA51F75E36D000A3308 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75C18BA81F75E36D000A3308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75C18BAA1F75E36D000A3308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75C18BB41F760E10000A3308 /* DroppablePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppablePin.swift; sourceTree = "<group>"; };
 		F931CD2A5507858D1D90F4DF /* Pods-PixelCity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixelCity.release.xcconfig"; path = "Pods/Target Support Files/Pods-PixelCity/Pods-PixelCity.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +95,7 @@
 		75C18BB11F75E39E000A3308 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				75C18BB41F760E10000A3308 /* DroppablePin.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75C18BA11F75E36D000A3308 /* MapVC.swift in Sources */,
+				75C18BB51F760E10000A3308 /* DroppablePin.swift in Sources */,
 				75C18B9F1F75E36D000A3308 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
