@@ -13,7 +13,7 @@ import MapKit
 class DroppablePin: NSObject, MKAnnotation {
     
     //dynamic variables are able to be modified the way we need to to create the MK annotations
-    dynamic var coordinate: CLLocationCoordinate2D
+    dynamic var coordinate: CLLocationCoordinate2D   //must have coordinate property, (MKAnnotation protocol)
     var identifier: String
     
     init(coordinate: CLLocationCoordinate2D, identifier: String) {
