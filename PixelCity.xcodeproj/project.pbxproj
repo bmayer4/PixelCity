@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		75B5775F1F7A026F00766921 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B5775E1F7A026F00766921 /* PhotoCell.swift */; };
 		75B577831F7AF4BC00766921 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B577821F7AF4BC00766921 /* Constants.swift */; };
+		75B577851F7C562A00766921 /* PopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B577841F7C562A00766921 /* PopVC.swift */; };
+		75B5778A1F7DF15000766921 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B577891F7DF15000766921 /* Photo.swift */; };
+		75B5778D1F7E8DA100766921 /* PhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B5778C1F7E8DA100766921 /* PhotoService.swift */; };
 		75C18B9F1F75E36D000A3308 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C18B9E1F75E36D000A3308 /* AppDelegate.swift */; };
 		75C18BA11F75E36D000A3308 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C18BA01F75E36D000A3308 /* MapVC.swift */; };
 		75C18BA41F75E36D000A3308 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75C18BA21F75E36D000A3308 /* Main.storyboard */; };
@@ -23,6 +26,9 @@
 		5410B8A9A6170FB55D2E50C8 /* Pods_PixelCity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PixelCity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75B5775E1F7A026F00766921 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		75B577821F7AF4BC00766921 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		75B577841F7C562A00766921 /* PopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopVC.swift; sourceTree = "<group>"; };
+		75B577891F7DF15000766921 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		75B5778C1F7E8DA100766921 /* PhotoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoService.swift; sourceTree = "<group>"; };
 		75C18B9B1F75E36D000A3308 /* PixelCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixelCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75C18B9E1F75E36D000A3308 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75C18BA01F75E36D000A3308 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
@@ -54,6 +60,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		75B577861F7DF10400766921 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				75B577891F7DF15000766921 /* Photo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		75B5778B1F7E8D9400766921 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				75B5778C1F7E8DA100766921 /* PhotoService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		75C18B921F75E36D000A3308 = {
 			isa = PBXGroup;
 			children = (
@@ -75,8 +97,10 @@
 		75C18B9D1F75E36D000A3308 /* PixelCity */ = {
 			isa = PBXGroup;
 			children = (
+				75B5778B1F7E8D9400766921 /* Services */,
 				75C18BB31F75E3B9000A3308 /* Utilities */,
 				75C18BB21F75E3A9000A3308 /* Extensions */,
+				75B577861F7DF10400766921 /* Model */,
 				75C18BB11F75E39E000A3308 /* View */,
 				75C18BB01F75E38E000A3308 /* Controller */,
 				75C18B9E1F75E36D000A3308 /* AppDelegate.swift */,
@@ -92,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				75C18BA01F75E36D000A3308 /* MapVC.swift */,
+				75B577841F7C562A00766921 /* PopVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -252,6 +277,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75B5778D1F7E8DA100766921 /* PhotoService.swift in Sources */,
+				75B5778A1F7DF15000766921 /* Photo.swift in Sources */,
+				75B577851F7C562A00766921 /* PopVC.swift in Sources */,
 				75B577831F7AF4BC00766921 /* Constants.swift in Sources */,
 				75B5775F1F7A026F00766921 /* PhotoCell.swift in Sources */,
 				75C18BA11F75E36D000A3308 /* MapVC.swift in Sources */,
