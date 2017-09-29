@@ -204,9 +204,10 @@ extension MapVC: MKMapViewDelegate {
     }
     
     func retrieveImages(completion: @escaping (_ status: Bool) -> ()) {
+        
         var newPhotos = [Photo]()
         
-        //for var only way to loop with photo beint a var an not a constant
+        //for var only way to loop with photo being a var an not a constant
         for var photo in photos {
             Alamofire.request(photo.imageUrl).responseImage(completionHandler: { (response) in
                 
